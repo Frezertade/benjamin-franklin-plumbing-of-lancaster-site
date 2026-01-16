@@ -490,7 +490,7 @@ export default function Home() {
               <div className="space-y-2 text-gray-400">
                 <p>📞 <a href="tel:717-707-7811" className="hover:text-white transition-colors">(717) 707-7811</a></p>
                 <p>📧 <a href="mailto:contact@benfranklinplumbingpros.com" className="hover:text-white transition-colors">contact@benfranklinplumbingpros.com</a></p>
-                <p>📍 518 Running Pump Rd, Lancaster, PA 17601</p>
+                <p>📍 516 Running Pump Road, Lancaster, PA 17601</p>
               </div>
             </div>
             
