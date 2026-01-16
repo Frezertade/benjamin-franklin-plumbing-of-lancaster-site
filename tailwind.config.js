@@ -8,14 +8,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'bf-blue': '#1e3a8a',
-        'bf-gold': '#fbbf24',
-        'bf-red': '#dc2626',
-        'bf-navy': '#1e40af'
+        primary: '#cc3366',
+        secondary: '#231f20',
+        accent: '#0066cc',
       },
       fontFamily: {
-        'sans': ['ui-sans-serif', 'system-ui', 'sans-serif'],
-      }
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
     },
   },
   plugins: [],
