@@ -1,10 +1,13 @@
 import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
 import './globals.css'
 
+const inter = Inter({ subsets: ['latin'] })
+
 export const metadata: Metadata = {
-  title: 'Benjamin Franklin Plumbing of Lancaster | The Punctual Plumber',
-  description: 'Professional plumbing services in Lancaster, PA. Emergency repairs, installations, and maintenance. Call (717) 384-1610 for reliable, punctual service.',
-  keywords: 'plumber Lancaster PA, emergency plumbing, water heater repair, drain cleaning, pipe repair',
+  title: 'Benjamin Franklin Plumbing of Lancaster - The Punctual Plumber',
+  description: 'Professional plumbing services in Lancaster, PA. Emergency repairs, drain cleaning, water heater installation. Call (717) 707-7811 for reliable service.',
+  keywords: 'plumber Lancaster PA, emergency plumbing, drain cleaning, water heater repair, Benjamin Franklin Plumbing',
 }
 
 export default function RootLayout({
@@ -14,7 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="font-sans antialiased">{children}</body>
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
+      <body className={inter.className}>{children}</body>
     </html>
   )
 }
